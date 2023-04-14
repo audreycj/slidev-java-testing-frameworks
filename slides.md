@@ -117,28 +117,28 @@ blockquote {
 
 <!-- 
 
-**FEATURE 1.**
+**1. Modular and extensible architecture**
 - Has a modular architecture that allows you to use only the parts of the framework that you need.
 - Allows you to add your own custom extensions to the framework, making it more flexible and adaptable to your specific testing needs.
 
-**FEATURE 2.**
+**2. New programming model**
 - Includes annotations and interfaces for writing tests and test extensions.
 - Allows for more flexible and expressive tests, with features like nested tests (_@Nested_), parameterized tests (_@ParameterizedTest_), and dynamic tests (_@DynamicTest_).
 - 
 
-**FEATURE 3.**
+**3. Improved exception handling**
 - Provides a new _assertThrows()_ method that makes it easier to test for expected exceptions.
 - This method takes a lambda expression and checks that it throws an exception of the specified type.
 
-**FEATURE 4.**
+**4. Test templates**
 - Includes a new _@TestTemplate_ annotation that allows you to define a test template that can be reused across multiple test cases.
 - This can save time and reduce duplication in your tests.
 
-**FEATURE 5.**
+**5. Parallel test execution**
 - Supports parallel test execution, which can greatly reduce the time it takes to run your test suite.
 - You can configure JUnit to run tests in parallel across multiple threads or processes, depending on your needs.
 
-**FEATURE 6.**
+**6. Improved reporting**
 - Provides more detailed and customizable test reports, with support for different output formats and styles.
 - Can help you to better understand the results of your tests and identify areas for improvement.
 
@@ -174,16 +174,16 @@ blockquote {
 
 <!-- 
 
-**FEATURE 1.**
+**1. Enhanced test reporting**
 - Provides more informative test reporting than standard JUnit 5, with additional information such as the stack traces of all exceptions thrown during a test run.
 - The test results can be easily customized to include the information that you need.
 
-**FEATURE 2.**
+**2. Improved parameterized tests**
 - Are more flexible and informative than in standard JUnit 5.
 - Provide better test output and reporting.
 - e.g. Test inputs and outputs can be automatically formatted and displayed in a readable format, making it easier to understand and debug tests.
 
-**FEATURE 3.**
+**3. Test fixtures with constructor injection**
 
 **_Test fixture_** — refers to the preparation of the environment, including the [1] creation of objects, [2] setting up the required data, and [3] defining the initial state of the system under test, to ensure that the test is executed in a known and controlled context. 
 
@@ -191,12 +191,12 @@ blockquote {
 - Enables you to declare constructor parameters and initialize them automatically before each test.
 - Constructor injection can be used to set up objects that will be used in multiple tests.
 
-**FEATURE 4.**
+**4. Enhanced test data management**
 - Provides annotations and utilities for defining and managing test data, making it easier to write test cases that cover different scenarios.
 - Allows you to define complex test data structures and manage them with ease.
 - Can also help avoid code duplication by allowing you to reuse test data across multiple test cases.
 
-**FEATURE 5.**
+**Test isolation with separate class loaders**
 
 **_Class loader_** — responsible for finding and loading Java classes (from the file system, network or other sources) into memory as they are referenced by a Java program at runtime. 
 
@@ -243,23 +243,23 @@ assertThat(str)
 
 <!-- 
 
-**FEATURE 1.**
+**1. Fluent interface**
 - Allows you to write assertions that read like natural language statements.
 - e.g. Instead of writing _assertTrue(x > 0)_, you can write _assertThat(x).isGreaterThan(0)_.
 
-**FEATURE 2.**
+**Type-specific assertions**
 - Provides specific assertion methods for different types of objects, such as collections, strings, dates, and exceptions
 - Makes it easy to write assertions that are tailored to the specific types you are working with.
 
-**FEATURE 3.**
+**3. Chained assertions**
 - You can chain multiple assertions together using the and method.
 - Allows you to perform multiple assertions on the same object in a single statement, which can make your tests more readable and concise.
 
-**FEATURE 4.**
+**4. Soft assertions**
 - Supports soft assertions, which allow you to continue running assertions even if one of them fails.
 - Can be useful in cases where you want to report all the failures in a test, rather than stopping at the first failure.
 
-**FEATURE 5.**
+**5. Custom error messages**
 - Allows you to provide custom error messages for your assertions, which can make it easier to understand what went wrong when an assertion fails.
 
  -->
@@ -294,23 +294,23 @@ blockquote {
 
 <!-- 
 
-**FEATURE 1.**
+**1. Wide variety of data types**
 - Supports a wide range of data types such as names, addresses, phone numbers, dates, times, credit card numbers, and more.
 - Makes it easy to generate realistic test data for a variety of applications.
 
-**FEATURE 2.**
+**2. Localization support**
 - Supports multiple languages and locales, which allows you to generate data that is specific to a particular country or region.
 - e.g. You can generate names, addresses, and phone numbers that are specific to the United States, United Kingdom, or France.
 
-**FEATURE 3.**
+**3. Customization**
 - Provides a way to customize the generated data by specifying your own data patterns or by providing your own data sets.
 - Is useful when you need to generate data that is specific to your application or domain.
 
-**FEATURE 4.**
+**4. Easy integration**
 - Can be easily integrated into your Java projects using Maven or Gradle.
 - Provides a simple API that allows you to generate data programmatically in your Java code.
 
-**FEATURE 5.**
+**5. High-quality data**
 - Generates high-quality data that is realistic and conforms to common patterns and formats.
 - Ensures that your tests are accurate, reliable, and comprehensive.
 
@@ -356,34 +356,34 @@ They allow developers to isolate and control the behavior of dependencies, makin
 
 ==================
 
-**FEATURE 1.**
+**1. Simple and intuitive syntax**
 - Is designed to be simple and easy to read, even for developers who are new to mocking frameworks.
 - Uses static methods to create and configure mock objects, which makes it easy to understand what is happening in your test code.
 
-**FEATURE 2.**
+**2. Stubbing**
 - Allows developers to create stubs for their mocked objects. 
 - **Stubs** are methods that are used to simulate behavior or return values for the mocked object.
 - Its flexible capabilities allow developers to configure the mock object to return a specific value, throw an exception, or execute custom code.
 
-**FEATURE 3.**
+**3. Verification**
 - Provides powerful verification capabilities that allow developers to check if certain methods or behaviors have been called on their mock objects.
 - Can verify that a method was called with specific arguments, or that a method was called a certain number of times.
 
-**FEATURE 4.**
+**4. Spying**
 - Allows developers to create spies, which are mock objects that wrap around a real object.
 - **Spies** allow developers to selectively mock or verify certain methods on the real object, while still executing the real implementation for other methods.
 - Can be useful for testing complex objects or for selectively mocking parts of an object's behavior.
 
-**FEATURE 5.**
+**5. Argument matching**
 - Provides several ways to match arguments passed to mock methods, including exact matches, wildcard matches, and argument capture.
 - Argument matching is important because it allows developers to test their code with a wide range of input data, without having to create a separate test case for each set of input data.
 
 
-**FEATURE 6.**
+**6. Annotation support**
 - Supports annotations, which allows developers to easily create and manage their mocks within their test classes.
 - Provides several annotations, including _@Mock_, which is used to create a mock object, and _@InjectMocks_, which is used to inject mocks into a real object.
 
-**FEATURE 7.**
+**7. Ability to mock final classes and methods**
 - Supports the mocking of final classes and methods, which is not possible with many other mocking frameworks.
 - Can be useful for testing code that relies on third-party libraries or external APIs, which may have final classes or methods.
 
@@ -421,28 +421,28 @@ blockquote {
 
 <!-- 
 
-**FEATURE 1.**
+**1. Fluent interface**
 - Is easy to use and understand. It has a simple and intuitive interface that makes it easy to create random data for your Java code.
 
-**FEATURE 2.**
+**2. Customizable**
 - Lets you make your own custom data types, which means you can create data that is unique to your needs.
 - You can customize Easy Random by telling it how to generate data. For example, you can tell it to make all strings between 5 and 10 characters long.
 
-**FEATURE 3.**
+**3. Supports complex object generation**
 - Can create complex objects with many different fields.
 - You can make objects that have other objects inside them, like a person object that has an address object inside it.
 
-**FEATURE 4.**
+**4. Supports a wide range of data types**
 - Can create all kinds of data, like numbers, strings, dates, and even custom data types that you create yourself.
 
-**FEATURE 5.**
+**5. Automatic configuration**
 - can automatically configure itself based on the types of objects that need to be generated.
 - You don't need to manually configure Easy Random for every object you need to generate.
 
-**FEATURE 6.**
+**6. Easy integration**
 - Is available on Maven Central and can be easily integrated into your Java projects using Maven, Gradle, or any other build tool that supports dependency management.
 
-**FEATURE 7.**
+**7. Provide randomness control**
 - You can control the randomness of the data that Easy Random generates.
 - You can make sure that the same data is generated every time you run your code.
 
@@ -479,19 +479,33 @@ blockquote {
 
 <!-- 
 
-**FEATURE 1.**
+**1. @EasyRandom**
+- Used to tell the Easy Random JUnit Extension to create an instance of the tested class with randomized data.
+- By using this annotation, you don't need to manually create test data for each test case.
+- Instead, the Easy Random library will generate random values for the fields of the class.
 
+**2. @WithEasyRandom**
+- Used to specify the Easy Random configuration to use for a particular test method.
+- Can be used to override the default configuration provided by the @EasyRandom annotation.
 
-**FEATURE 2.**
+**3. @EasyRandomResource**
+- Used to inject an instance of the EasyRandom class into a test class or test method.
+- Allows you to use the Easy Random library directly in your test methods.
 
+**4. @Randomizer**
+- Used to specify a custom randomizer class for a particular field or type.
+- A **_randomizer_** is a class that generates random values for a specific type.
+- By using this annotation, you can provide your own custom logic for generating random values for a particular field.
 
-**FEATURE 3.**
+**5. @Random**
+- Used to generate a random value for a particular field.
+- By default, the Easy Random library will generate random values for fields based on their type.
+- However, you can use the @Random annotation to override the default behavior and specify a custom random value.
 
-
-**FEATURE 4.**
-
-
-**FEATURE 5.**
+**6. @RandomBean**
+- Used to generate a fully populated instance of a Java bean with randomized data.
+- Particularly useful when you need to create complex objects with multiple fields and nested objects.
+- By using this annotation, you can generate a random instance of a bean with a single line of code.
 
 
  -->
@@ -527,20 +541,26 @@ blockquote {
 
 <!-- 
 
-**FEATURE 1.**
+**1. Supports multiple database types**
+- Supports a wide range of database types, including MySQL, PostgreSQL, Oracle, and more.
+- Allows developers to test their database-related code against a variety of different database platforms, ensuring that their code is portable and works correctly in different environments.
 
+**2. Supports data-driven testing**
+- Makes it easy to perform data-driven testing by allowing developers to define test data in external files such as CSV or XML. - This approach allows developers to easily manage large amounts of test data, and also makes it easy to add new test cases as needed.
 
-**FEATURE 2.**
+**3. Provides fluent API for database operations**
+- Provides a fluent API for interacting with the database, which simplifies the process of writing database-related test cases. - The API includes methods for performing CRUD (create, read, update, delete) operations on the database, as well as for executing SQL queries and scripts.
 
+**4. Integration with JUnit and TestNG**
+- Integrates seamlessly with popular Java testing frameworks such as JUnit and TestNG, allowing developers to easily incorporate database-related tests into their existing test suites.
 
-**FEATURE 3.**
+**5. Supports transaction management**
+- Provides support for transaction management, allowing developers to easily manage database transactions within their test cases.
+- This helps ensure that test data is properly cleaned up after each test run, and also makes it easy to isolate individual test cases from one another.
 
-
-**FEATURE 4.**
-
-
-**FEATURE 5.**
-
+**6. Supports assertions on database state**
+- Provides a rich set of assertions that developers can use to verify the state of the database after a test has run.
+- These assertions include checks for the existence of specific data, the number of rows returned by a query, and more.
 
  -->
 
@@ -575,19 +595,21 @@ blockquote {
 
 <!-- 
 
-**FEATURE 1.**
+**1. Model-based testing with graphs**
 
 
-**FEATURE 2.**
+**2. Domain-specific assertions**
 
 
-**FEATURE 3.**
+**3. Value object testing**
 
 
-**FEATURE 4.**
+**4. Flexible model definition**
 
 
-**FEATURE 5.**
+**5. Data-driven testing**
+
+**6. Lightweight and easy to use**
 
 
  -->
