@@ -39,16 +39,42 @@ by Audrey Nanual
 layout: center
 ---
 
-# slide with bullet points
+# Frameworks for today
 
-Some of Java's testing frameworks
+1. JUnit 5
+2. JUnit Pioneer
+3. AssertJ
+4. Data Faker
+5. Mockito
+6. Easy Random
+7. Easy Random JUnit Extension
+8. Database Rider
+9. ModelAssert
+10. SpringFramework Testing
+11. Spring Boot Testing
+12. TestContainers
+13. Instancio
+14. Selenide
+15. JetBrains Aqua
 
-- idea one
-    - heh
-    - heh
-- idea two
-    - woohoo
-    - wow
+---
+layout: two-cols
+---
+
+<template v-slot:default>
+
+# Left
+
+niceu
+
+</template>
+<template v-slot:right>
+
+# Right
+
+noice
+
+</template>
 
 ---
 layout: center
