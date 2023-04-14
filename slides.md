@@ -73,6 +73,20 @@ layout: center
 
 “Powerful and flexible Java testing framework”
 
+> Latest version of the popular Java testing framework, JUnit.
+
+> Provides a range of new features and enhancements to help developers write more efficient, effective, and maintainable tests.
+
+<style>
+blockquote {
+  code {
+    @apply text-teal-500 dark:text-teal-400;
+  }
+}
+</style>
+
+<br>
+
 1. Modular and extensible architecture
 2. New programming model
 3. Improved exception handling
@@ -88,6 +102,20 @@ layout: center
 
 “Making JUnit 5 testing simpler and more accessible”
 
+> A community-driven effort to improve the quality and effectiveness of JUnit tests,
+
+> through the development and promotion of best practices, tools, and educational resources.
+
+<style>
+blockquote {
+  code {
+    @apply text-teal-500 dark:text-teal-400;
+  }
+}
+</style>
+
+<br>
+
 1. Enhanced test reporting
 2. Improved parameterized tests
 3. Test fixtures with constructor injection
@@ -101,6 +129,20 @@ layout: center
 # AssertJ
 
 “Readable and comprehensive assertions for Java”
+
+> A fluent assertions library for Java that provides a more
+
+> readable and comprehensive way of writing assertions in unit tests.
+
+<style>
+blockquote {
+  code {
+    @apply text-teal-500 dark:text-teal-400;
+  }
+}
+</style>
+
+<br>
 
 1. Fluent interface
 2. Type-specific assertions
@@ -116,6 +158,20 @@ layout: center
 
 “Realistic data generation made easy”
 
+> A Java library that generates realistic and randomized test data for a wide range of data types,
+
+> allowing developers to quickly and easily populate their unit tests with diverse and comprehensive test data.
+
+<style>
+blockquote {
+  code {
+    @apply text-teal-500 dark:text-teal-400;
+  }
+}
+</style>
+
+<br>
+
 1. Wide variety of data types
 2. Localization support
 3. Customization
@@ -129,6 +185,20 @@ layout: center
 # Mockito
 
 “Mocking framework for unit testing in Java”
+
+>  A Java mocking framework that allows developers to create mock objects, stub method behavior,
+
+> and verify the interactions between objects in unit tests.
+
+<style>
+blockquote {
+  code {
+    @apply text-teal-500 dark:text-teal-400;
+  }
+}
+</style>
+
+<br>
 
 1. Simple and intuitive syntax
 2. Stubbing
@@ -146,6 +216,20 @@ layout: center
 
 “Flexible test data generation”
 
+> A Java library that simplifies the process of generating randomized test data,
+
+> making it easier to write comprehensive and efficient tests.
+
+<style>
+blockquote {
+  code {
+    @apply text-teal-500 dark:text-teal-400;
+  }
+}
+</style>
+
+<br>
+
 1. Fluent interface
 2. Customizable
 3. Supports complex object generation
@@ -162,6 +246,20 @@ layout: center
 
 “Seamless test data generation”
 
+> A testing tool that simplifies the process of generating randomized test data in JUnit tests, reducing the amount of 
+
+> boilerplate code required for data setup and allowing for more comprehensive and efficient testing.
+
+<style>
+blockquote {
+  code {
+    @apply text-teal-500 dark:text-teal-400;
+  }
+}
+</style>
+
+<br>
+
 1. @EasyRandom
 2. @WithEasyRandom
 3. @EasyRandomResource
@@ -176,6 +274,20 @@ layout: center
 # Database Rider
 
 “Database testing made easy”
+
+> A testing tool that provides support for testing database-related functionality in Java applications,
+
+> allowing developers to create and manage test data and execute tests in an automated and repeatable manner.
+
+<style>
+blockquote {
+  code {
+    @apply text-teal-500 dark:text-teal-400;
+  }
+}
+</style>
+
+<br>
 
 1. Supports multiple database types
 2. Supports data-driven testing
@@ -192,6 +304,20 @@ layout: center
 
 “Model-based testing”
 
+> A Java testing library that allows developers to define models for objects and collections,
+
+> and then use these models to assert that the state and behavior of objects and collections conform to expected models.
+
+<style>
+blockquote {
+  code {
+    @apply text-teal-500 dark:text-teal-400;
+  }
+}
+</style>
+
+<br>
+
 1. Model-based testing with graphs
 2. Domain-specific assertions
 3. Value object testing
@@ -206,6 +332,20 @@ layout: center
 # SpringFramework Testing
 
 “Simplified testing of Spring applications”
+
+> Provides support for testing Spring-based applications, including unit testing, integration testing, 
+
+> and end-to-end testing, using a variety of testing frameworks and tools.
+
+<style>
+blockquote {
+  code {
+    @apply text-teal-500 dark:text-teal-400;
+  }
+}
+</style>
+
+<br>
 
 1. Integration testing
 2. Mock objects
@@ -222,6 +362,20 @@ layout: center
 
 “Testing made easy for Spring Boot”
 
+> A module of the Spring Boot framework that provides support for testing Spring Boot applications,
+
+> including unit testing, integration testing, and end-to-end testing.
+
+<style>
+blockquote {
+  code {
+    @apply text-teal-500 dark:text-teal-400;
+  }
+}
+</style>
+
+<br>
+
 1. Integration with the Spring framework
 2. Support for different types of testing
 3. Auto-configuration
@@ -235,6 +389,20 @@ layout: center
 # TestContainers
 
 “Containerized testing made simple”
+
+> A Java testing library that allows developers to easily create and manage disposable test containers,
+
+> such as databases, for their unit and integration tests.
+
+<style>
+blockquote {
+  code {
+    @apply text-teal-500 dark:text-teal-400;
+  }
+}
+</style>
+
+<br>
 
 1. Containerization
 2. Wide range of supported containers
@@ -251,6 +419,18 @@ layout: center
 
 “Dynamic test data generation library”
 
+> A library for instantiating and populating objects with random data, making your tests more dynamic
+
+<style>
+blockquote {
+  code {
+    @apply text-teal-500 dark:text-teal-400;
+  }
+}
+</style>
+
+<br>
+
 1. Reduces manual data setup in unit tests
 2. Non-intrusive and concise API
 3. Allows customization of generated objects
@@ -264,6 +444,18 @@ layout: center
 # Selenide
 
 "Java UI testing made easy."
+
+> A concise and easy-to-use Java-based UI automation testing framework that leverages the Selenium WebDriver library.
+
+<style>
+blockquote {
+  code {
+    @apply text-teal-500 dark:text-teal-400;
+  }
+}
+</style>
+
+<br>
 
 1. Concise and readable syntax
 2. Automatic waits
@@ -281,6 +473,18 @@ layout: center
 # JetBrains Aqua
 
 "A powerful new IDE for test automation"
+
+> A powerful tool for testing automation that incorporates parts of various IDEs, targeting the testing automation process.
+
+<style>
+blockquote {
+  code {
+    @apply text-teal-500 dark:text-teal-400;
+  }
+}
+</style>
+
+<br>
 
 1. Intelligent coding assistance
 2. Unit test frameworks
