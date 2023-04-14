@@ -96,28 +96,28 @@ blockquote {
 
 <!-- 
 
-**Feature 1.**
+**FEATURE 1.**
 - Has a modular architecture that allows you to use only the parts of the framework that you need.
 - Allows you to add your own custom extensions to the framework, making it more flexible and adaptable to your specific testing needs.
 
-**Feature 2.**
+**FEATURE 2.**
 - Includes annotations and interfaces for writing tests and test extensions.
 - Allows for more flexible and expressive tests, with features like nested tests (_@Nested_), parameterized tests (_@ParameterizedTest_), and dynamic tests (_@DynamicTest_).
 - 
 
-**Feature 3.**
+**FEATURE 3.**
 - Provides a new _assertThrows()_ method that makes it easier to test for expected exceptions.
 - This method takes a lambda expression and checks that it throws an exception of the specified type.
 
-**Feature 4.**
+**FEATURE 4.**
 - Includes a new _@TestTemplate_ annotation that allows you to define a test template that can be reused across multiple test cases.
 - This can save time and reduce duplication in your tests.
 
-**Feature 5.**
+**FEATURE 5.**
 - Supports parallel test execution, which can greatly reduce the time it takes to run your test suite.
 - You can configure JUnit to run tests in parallel across multiple threads or processes, depending on your needs.
 
-**Feature 6.**
+**FEATURE 6.**
 - Provides more detailed and customizable test reports, with support for different output formats and styles.
 - Can help you to better understand the results of your tests and identify areas for improvement.
 
@@ -153,20 +153,35 @@ blockquote {
 
 <!-- 
 
-**Feature 1.**
+**FEATURE 1.**
+- Provides more informative test reporting than standard JUnit 5, with additional information such as the stack traces of all exceptions thrown during a test run.
+- The test results can be easily customized to include the information that you need.
 
+**FEATURE 2.**
+- Are more flexible and informative than in standard JUnit 5.
+- Provide better test output and reporting.
+- e.g. Test inputs and outputs can be automatically formatted and displayed in a readable format, making it easier to understand and debug tests.
 
-**Feature 2.**
+**FEATURE 3.**
 
+**_Test fixture_** — refers to the preparation of the environment, including the [1] creation of objects, [2] setting up the required data, and [3] defining the initial state of the system under test, to ensure that the test is executed in a known and controlled context. 
 
-**Feature 3.**
+- Supports test fixtures with constructor injection, which allows for more flexible test setup and teardown.
+- Enables you to declare constructor parameters and initialize them automatically before each test.
+- Constructor injection can be used to set up objects that will be used in multiple tests.
 
+**FEATURE 4.**
+- Provides annotations and utilities for defining and managing test data, making it easier to write test cases that cover different scenarios.
+- Allows you to define complex test data structures and manage them with ease.
+- Can also help avoid code duplication by allowing you to reuse test data across multiple test cases.
 
-**Feature 4.**
+**FEATURE 5.**
 
+**_Class loader_** — responsible for finding and loading Java classes (from the file system, network or other sources) into memory as they are referenced by a Java program at runtime. 
 
-**Feature 5.**
-
+- Allows you to run tests in separate class loaders, which can improve test isolation and reduce test execution time. 
+- Allows you to run tests in parallel without having to worry about shared state or dependencies.
+- Mkes it easier to test code that depends on external resources, such as databases or web services, by isolating the test environment from the production environment.
 
  -->
 
@@ -192,28 +207,39 @@ blockquote {
 
 <br>
 
-1. Fluent interface
-2. Type-specific assertions
+1. Fluent interface —— ❌ assertTrue(x > 0) | ✅ assertThat(x).isGreaterThan(0)
+2. Type-specific assertions (i.e., collections, strings, dates, and exceptions)
 3. Chained assertions
+```java
+assertThat(str)
+      .startsWith("JUnit")
+      .endsWith("framework")
+      .contains("unit testing");
+```
 4. Soft assertions
+
 5. Custom error messages
 
 <!-- 
 
-**Feature 1.**
+**FEATURE 1.**
+- Allows you to write assertions that read like natural language statements.
+- e.g. Instead of writing _assertTrue(x > 0)_, you can write _assertThat(x).isGreaterThan(0)_.
 
+**FEATURE 2.**
+- Provides specific assertion methods for different types of objects, such as collections, strings, dates, and exceptions
+- Makes it easy to write assertions that are tailored to the specific types you are working with.
 
-**Feature 2.**
+**FEATURE 3.**
+- You can chain multiple assertions together using the and method.
+- Allows you to perform multiple assertions on the same object in a single statement, which can make your tests more readable and concise.
 
+**FEATURE 4.**
+- Supports soft assertions, which allow you to continue running assertions even if one of them fails.
+- Can be useful in cases where you want to report all the failures in a test, rather than stopping at the first failure.
 
-**Feature 3.**
-
-
-**Feature 4.**
-
-
-**Feature 5.**
-
+**FEATURE 5.**
+- Allows you to provide custom error messages for your assertions, which can make it easier to understand what went wrong when an assertion fails.
 
  -->
 
@@ -247,19 +273,19 @@ blockquote {
 
 <!-- 
 
-**Feature 1.**
+**FEATURE 1.**
 
 
-**Feature 2.**
+**FEATURE 2.**
 
 
-**Feature 3.**
+**FEATURE 3.**
 
 
-**Feature 4.**
+**FEATURE 4.**
 
 
-**Feature 5.**
+**FEATURE 5.**
 
 
  -->
@@ -296,19 +322,19 @@ blockquote {
 
 <!-- 
 
-**Feature 1.**
+**FEATURE 1.**
 
 
-**Feature 2.**
+**FEATURE 2.**
 
 
-**Feature 3.**
+**FEATURE 3.**
 
 
-**Feature 4.**
+**FEATURE 4.**
 
 
-**Feature 5.**
+**FEATURE 5.**
 
 
  -->
@@ -345,19 +371,19 @@ blockquote {
 
 <!-- 
 
-**Feature 1.**
+**FEATURE 1.**
 
 
-**Feature 2.**
+**FEATURE 2.**
 
 
-**Feature 3.**
+**FEATURE 3.**
 
 
-**Feature 4.**
+**FEATURE 4.**
 
 
-**Feature 5.**
+**FEATURE 5.**
 
 
  -->
@@ -393,19 +419,19 @@ blockquote {
 
 <!-- 
 
-**Feature 1.**
+**FEATURE 1.**
 
 
-**Feature 2.**
+**FEATURE 2.**
 
 
-**Feature 3.**
+**FEATURE 3.**
 
 
-**Feature 4.**
+**FEATURE 4.**
 
 
-**Feature 5.**
+**FEATURE 5.**
 
 
  -->
@@ -441,19 +467,19 @@ blockquote {
 
 <!-- 
 
-**Feature 1.**
+**FEATURE 1.**
 
 
-**Feature 2.**
+**FEATURE 2.**
 
 
-**Feature 3.**
+**FEATURE 3.**
 
 
-**Feature 4.**
+**FEATURE 4.**
 
 
-**Feature 5.**
+**FEATURE 5.**
 
 
  -->
@@ -489,19 +515,19 @@ blockquote {
 
 <!-- 
 
-**Feature 1.**
+**FEATURE 1.**
 
 
-**Feature 2.**
+**FEATURE 2.**
 
 
-**Feature 3.**
+**FEATURE 3.**
 
 
-**Feature 4.**
+**FEATURE 4.**
 
 
-**Feature 5.**
+**FEATURE 5.**
 
 
  -->
@@ -537,19 +563,19 @@ blockquote {
 
 <!-- 
 
-**Feature 1.**
+**FEATURE 1.**
 
 
-**Feature 2.**
+**FEATURE 2.**
 
 
-**Feature 3.**
+**FEATURE 3.**
 
 
-**Feature 4.**
+**FEATURE 4.**
 
 
-**Feature 5.**
+**FEATURE 5.**
 
 
  -->
@@ -584,19 +610,19 @@ blockquote {
 
 <!-- 
 
-**Feature 1.**
+**FEATURE 1.**
 
 
-**Feature 2.**
+**FEATURE 2.**
 
 
-**Feature 3.**
+**FEATURE 3.**
 
 
-**Feature 4.**
+**FEATURE 4.**
 
 
-**Feature 5.**
+**FEATURE 5.**
 
 
  -->
@@ -632,19 +658,19 @@ blockquote {
 
 <!-- 
 
-**Feature 1.**
+**FEATURE 1.**
 
 
-**Feature 2.**
+**FEATURE 2.**
 
 
-**Feature 3.**
+**FEATURE 3.**
 
 
-**Feature 4.**
+**FEATURE 4.**
 
 
-**Feature 5.**
+**FEATURE 5.**
 
 
  -->
@@ -677,19 +703,19 @@ blockquote {
 
 <!-- 
 
-**Feature 1.**
+**FEATURE 1.**
 
 
-**Feature 2.**
+**FEATURE 2.**
 
 
-**Feature 3.**
+**FEATURE 3.**
 
 
-**Feature 4.**
+**FEATURE 4.**
 
 
-**Feature 5.**
+**FEATURE 5.**
 
 
  -->
@@ -725,19 +751,19 @@ blockquote {
 
 <!-- 
 
-**Feature 1.**
+**FEATURE 1.**
 
 
-**Feature 2.**
+**FEATURE 2.**
 
 
-**Feature 3.**
+**FEATURE 3.**
 
 
-**Feature 4.**
+**FEATURE 4.**
 
 
-**Feature 5.**
+**FEATURE 5.**
 
 
  -->
@@ -771,11 +797,81 @@ blockquote {
 7. TMS
 
 
+<!-- 
+
+**FEATURE 1.**
+
+
+**FEATURE 2.**
+
+
+**FEATURE 3.**
+
+
+**FEATURE 4.**
+
+
+**FEATURE 5.**
+
+
+ -->
+
+---
+layout: center
+---
+
+# Summary
+
+1. **_JUnit 5_** — A popular unit testing framework for Java.
+2. **_JUnit Pioneer_** — An open-source testing tool that extends JUnit 5 to provide additional testing features.
+3. **_AssertJ_** — A library that provides fluent assertions for Java.
+4. **_Data Faker_** — A library that generates random data for testing purposes.
+5. **_Mockito_** — A mocking framework for Java that allows you to create mock objects for testing.
+
+---
+layout: center
+---
+
+# Summary (cont.)
+
+6. **_Easy Random_** — A library that generates random data for testing purposes.
+7. **_Easy Random JUnit Extension_** — An extension to the Easy Random library that integrates with JUnit 5 to generate random test data.
+8. **_Database Rider_** — A testing tool that provides a convenient way to manage and populate database instances for testing purposes.
+9. **_ModelAssert_** — A library that provides fluent assertions for testing object models.
+10. **_SpringFramework Testing_** — A testing framework that provides support for testing Spring-based applications.
+
+---
+layout: center
+---
+
+# Summary (cont.)
+
+11. **_Spring Boot Testing_** — A testing framework that provides support for testing Spring Boot applications.
+12. **_TestContainers_** — A testing tool that allows you to easily run applications in containers for testing purposes.
+13. **_Instancio_** — A testing tool that generates test data by analyzing the source code of the classes being tested.
+14. **_Selenide_** — A testing framework that provides a concise API for writing UI tests using Selenium WebDriver.
+15. **_JetBrains Aqua_** — A testing tool that provides a simple and intuitive way to test Java applications using a web-based interface.
 
 
 
 
 
+
+---
+layout: center
+---
+
+### More info on the presented testing tools
+
+<img src="/assets/images/notes.png" class="m-5 h-100 rounded shadow" />
+
+---
+layout: end
+---
+
+
+
+<!-- ==================================== CUT-OFF ==================================== -->
 
 ---
 layout: two-cols
