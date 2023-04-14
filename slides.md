@@ -47,14 +47,23 @@ layout: center
 
 ### **Testing Library**
 - a set of conventions and rules that define how tests are written, organized, and executed
-- provides a structure for writing test cases and automates the process of executing them, reporting results, and providing feedback
 - e.g. AssertJ, Data Faker, Easy Random, Easy Random JUnit Extension, ModelAssert, 
 
 <br>
 
 ### **Testing Tool**
-- a software application that helps developers automate and manage the process of testing software, providing functionality beyond what is available in testing libraries or frameworks
+- a software application that helps developers automate and manage the process of testing software
 - e.g. JUnit Pioneer, Database Rider, TestContainers, Instancio, JetBrains Aqua
+
+<!-- 
+
+**Testing Library**
+- provides a structure for writing test cases and automates the process of executing them, reporting results, and providing feedback
+
+**Testing Tool**
+- ...providing functionality beyond what is available in testing libraries or frameworks
+
+ -->
 
 ---
 layout: center
