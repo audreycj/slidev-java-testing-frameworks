@@ -31,7 +31,7 @@ transition: slide-left
 css: unocss
 ---
 
-# Java Unit Testing Frameworks
+# Java Unit Testing Frameworks, Libraries, and Tools
 
 by Audrey Nanual
 
@@ -39,7 +39,28 @@ by Audrey Nanual
 layout: center
 ---
 
-# Frameworks for today
+### **Testing Framework**
+-  a collection of reusable code that provides functionality to support unit testing, such as _assertion methods_, _mock objects_, or _test data generators_
+- e.g. JUnit 5, Mockito, SpringFramework Testing, Spring Boot Testing, Selenide
+
+<br>
+
+### **Testing Library**
+- a set of conventions and rules that define how tests are written, organized, and executed
+- provides a structure for writing test cases and automates the process of executing them, reporting results, and providing feedback
+- e.g. AssertJ, Data Faker, Easy Random, Easy Random JUnit Extension, ModelAssert, 
+
+<br>
+
+### **Testing Tool**
+- a software application that helps developers automate and manage the process of testing software, providing functionality beyond what is available in testing libraries or frameworks
+- e.g. JUnit Pioneer, Database Rider, TestContainers, Instancio, JetBrains Aqua
+
+---
+layout: center
+---
+
+# Frameworks, libraries, and tools for today
 
 1. JUnit 5
 2. JUnit Pioneer
@@ -274,19 +295,24 @@ blockquote {
 <!-- 
 
 **FEATURE 1.**
-
+- Supports a wide range of data types such as names, addresses, phone numbers, dates, times, credit card numbers, and more.
+- Makes it easy to generate realistic test data for a variety of applications.
 
 **FEATURE 2.**
-
+- Supports multiple languages and locales, which allows you to generate data that is specific to a particular country or region.
+- e.g. You can generate names, addresses, and phone numbers that are specific to the United States, United Kingdom, or France.
 
 **FEATURE 3.**
-
+- Provides a way to customize the generated data by specifying your own data patterns or by providing your own data sets.
+- Is useful when you need to generate data that is specific to your application or domain.
 
 **FEATURE 4.**
-
+- Can be easily integrated into your Java projects using Maven or Gradle.
+- Provides a simple API that allows you to generate data programmatically in your Java code.
 
 **FEATURE 5.**
-
+- Generates high-quality data that is realistic and conforms to common patterns and formats.
+- Ensures that your tests are accurate, reliable, and comprehensive.
 
  -->
 
