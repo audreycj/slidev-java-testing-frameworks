@@ -71,7 +71,7 @@ layout: center
 
 # JUnit 5
 
-Features
+“Powerful and flexible Java testing framework”
 
 1. Modular and extensible architecture
 2. New programming model
@@ -86,7 +86,7 @@ layout: center
 
 # JUnit Pioneer
 
-Features
+“Making JUnit 5 testing simpler and more accessible”
 
 1. Enhanced test reporting
 2. Improved parameterized tests
@@ -100,7 +100,7 @@ layout: center
 
 # AssertJ
 
-Features
+“Readable and comprehensive assertions for Java”
 
 1. Fluent interface
 2. Type-specific assertions
@@ -114,7 +114,7 @@ layout: center
 
 # Data Faker
 
-Features
+“Realistic data generation made easy”
 
 1. Wide variety of data types
 2. Localization support
@@ -128,7 +128,7 @@ layout: center
 
 # Mockito
 
-Features
+“Mocking framework for unit testing in Java”
 
 1. Simple and intuitive syntax
 2. Stubbing
@@ -144,7 +144,7 @@ layout: center
 
 # Easy Random
 
-Features
+“Flexible test data generation”
 
 1. Fluent interface
 2. Customizable
@@ -160,7 +160,7 @@ layout: center
 
 # Easy Random JUnit Extension
 
-Features
+“Seamless test data generation”
 
 1. @EasyRandom
 2. @WithEasyRandom
@@ -175,7 +175,7 @@ layout: center
 
 # Database Rider
 
-Features
+“Database testing made easy”
 
 1. Supports multiple database types
 2. Supports data-driven testing
@@ -190,7 +190,7 @@ layout: center
 
 # ModelAssert
 
-Features
+“Model-based testing”
 
 1. Model-based testing with graphs
 2. Domain-specific assertions
@@ -205,7 +205,7 @@ layout: center
 
 # SpringFramework Testing
 
-Features
+“Simplified testing of Spring applications”
 
 1. Integration testing
 2. Mock objects
@@ -220,7 +220,7 @@ layout: center
 
 # Spring Boot Testing
 
-Features
+“Testing made easy for Spring Boot”
 
 1. Integration with the Spring framework
 2. Support for different types of testing
@@ -234,7 +234,7 @@ layout: center
 
 # TestContainers
 
-Features
+“Containerized testing made simple”
 
 1. Containerization
 2. Wide range of supported containers
@@ -249,7 +249,7 @@ layout: center
 
 # Instancio
 
-Features
+“Dynamic test data generation library”
 
 1. Reduces manual data setup in unit tests
 2. Non-intrusive and concise API
@@ -263,7 +263,7 @@ layout: center
 
 # Selenide
 
-Features
+"Java UI testing made easy."
 
 1. Concise and readable syntax
 2. Automatic waits
@@ -280,7 +280,7 @@ layout: center
 
 # JetBrains Aqua
 
-Features
+"A powerful new IDE for test automation"
 
 1. Intelligent coding assistance
 2. Unit test frameworks
