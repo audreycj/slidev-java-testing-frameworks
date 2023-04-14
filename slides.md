@@ -88,11 +88,40 @@ blockquote {
 <br>
 
 1. Modular and extensible architecture
-2. New programming model
+2. New programming model (i.e., @Nested, @ParameterizedTest, @DynamicTest)
 3. Improved exception handling
 4. Test templates
 5. Parallel test execution
 6. Improved reporting
+
+<!-- 
+
+**Feature 1.**
+- Has a modular architecture that allows you to use only the parts of the framework that you need.
+- Allows you to add your own custom extensions to the framework, making it more flexible and adaptable to your specific testing needs.
+
+**Feature 2.**
+- Includes annotations and interfaces for writing tests and test extensions.
+- Allows for more flexible and expressive tests, with features like nested tests (_@Nested_), parameterized tests (_@ParameterizedTest_), and dynamic tests (_@DynamicTest_).
+- 
+
+**Feature 3.**
+- Provides a new _assertThrows()_ method that makes it easier to test for expected exceptions.
+- This method takes a lambda expression and checks that it throws an exception of the specified type.
+
+**Feature 4.**
+- Includes a new _@TestTemplate_ annotation that allows you to define a test template that can be reused across multiple test cases.
+- This can save time and reduce duplication in your tests.
+
+**Feature 5.**
+- Supports parallel test execution, which can greatly reduce the time it takes to run your test suite.
+- You can configure JUnit to run tests in parallel across multiple threads or processes, depending on your needs.
+
+**Feature 6.**
+- Provides more detailed and customizable test reports, with support for different output formats and styles.
+- Can help you to better understand the results of your tests and identify areas for improvement.
+
+ -->
 
 ---
 layout: center
@@ -122,6 +151,25 @@ blockquote {
 4. Enhanced test data management
 5. Test isolation with separate class loaders
 
+<!-- 
+
+**Feature 1.**
+
+
+**Feature 2.**
+
+
+**Feature 3.**
+
+
+**Feature 4.**
+
+
+**Feature 5.**
+
+
+ -->
+
 ---
 layout: center
 ---
@@ -150,6 +198,25 @@ blockquote {
 4. Soft assertions
 5. Custom error messages
 
+<!-- 
+
+**Feature 1.**
+
+
+**Feature 2.**
+
+
+**Feature 3.**
+
+
+**Feature 4.**
+
+
+**Feature 5.**
+
+
+ -->
+
 ---
 layout: center
 ---
@@ -177,6 +244,25 @@ blockquote {
 3. Customization
 4. Easy integration
 5. High-quality data
+
+<!-- 
+
+**Feature 1.**
+
+
+**Feature 2.**
+
+
+**Feature 3.**
+
+
+**Feature 4.**
+
+
+**Feature 5.**
+
+
+ -->
 
 ---
 layout: center
@@ -208,6 +294,25 @@ blockquote {
 6. Annotation support
 7. Ability to mock final classes and methods
 
+<!-- 
+
+**Feature 1.**
+
+
+**Feature 2.**
+
+
+**Feature 3.**
+
+
+**Feature 4.**
+
+
+**Feature 5.**
+
+
+ -->
+
 ---
 layout: center
 ---
@@ -238,6 +343,25 @@ blockquote {
 6. Easy integration
 7. Provide randomness control
 
+<!-- 
+
+**Feature 1.**
+
+
+**Feature 2.**
+
+
+**Feature 3.**
+
+
+**Feature 4.**
+
+
+**Feature 5.**
+
+
+ -->
+
 ---
 layout: center
 ---
@@ -266,6 +390,25 @@ blockquote {
 4. @Randomizer
 5. @Random
 6. @RandomBean
+
+<!-- 
+
+**Feature 1.**
+
+
+**Feature 2.**
+
+
+**Feature 3.**
+
+
+**Feature 4.**
+
+
+**Feature 5.**
+
+
+ -->
 
 ---
 layout: center
@@ -296,6 +439,25 @@ blockquote {
 5. Supports transaction management
 6. Supports assertions on database state
 
+<!-- 
+
+**Feature 1.**
+
+
+**Feature 2.**
+
+
+**Feature 3.**
+
+
+**Feature 4.**
+
+
+**Feature 5.**
+
+
+ -->
+
 ---
 layout: center
 ---
@@ -324,6 +486,25 @@ blockquote {
 4. Flexible model definition
 5. Data-driven testing
 6. Lightweight and easy to use
+
+<!-- 
+
+**Feature 1.**
+
+
+**Feature 2.**
+
+
+**Feature 3.**
+
+
+**Feature 4.**
+
+
+**Feature 5.**
+
+
+ -->
 
 ---
 layout: center
@@ -354,6 +535,25 @@ blockquote {
 5. Flexible configuration
 6. Test templates
 
+<!-- 
+
+**Feature 1.**
+
+
+**Feature 2.**
+
+
+**Feature 3.**
+
+
+**Feature 4.**
+
+
+**Feature 5.**
+
+
+ -->
+
 ---
 layout: center
 ---
@@ -381,6 +581,25 @@ blockquote {
 3. Auto-configuration
 4. Embedded servers
 5. Dependency management
+
+<!-- 
+
+**Feature 1.**
+
+
+**Feature 2.**
+
+
+**Feature 3.**
+
+
+**Feature 4.**
+
+
+**Feature 5.**
+
+
+ -->
 
 ---
 layout: center
@@ -411,6 +630,25 @@ blockquote {
 5. Simple API
 6. Compatibility with existing testing frameworks
 
+<!-- 
+
+**Feature 1.**
+
+
+**Feature 2.**
+
+
+**Feature 3.**
+
+
+**Feature 4.**
+
+
+**Feature 5.**
+
+
+ -->
+
 ---
 layout: center
 ---
@@ -436,6 +674,25 @@ blockquote {
 3. Allows customization of generated objects
 4. Requires no changes to production code
 5. Can be used out-of-the-box with zero config
+
+<!-- 
+
+**Feature 1.**
+
+
+**Feature 2.**
+
+
+**Feature 3.**
+
+
+**Feature 4.**
+
+
+**Feature 5.**
+
+
+ -->
 
 ---
 layout: center
@@ -465,6 +722,25 @@ blockquote {
 6. Fluent API
 7. Automatic handling of iframes
 8. Advanced assertions
+
+<!-- 
+
+**Feature 1.**
+
+
+**Feature 2.**
+
+
+**Feature 3.**
+
+
+**Feature 4.**
+
+
+**Feature 5.**
+
+
+ -->
 
 ---
 layout: center
