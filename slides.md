@@ -88,12 +88,11 @@ layout: center
 
 Features
 
-1. -
-2. -
-3. -
-4. -
-5. -
-6. -
+1. Enhanced test reporting
+2. Improved parameterized tests
+3. Test fixtures with constructor injection
+4. Enhanced test data management
+5. Test isolation with separate class loaders
 
 ---
 layout: center
@@ -103,12 +102,11 @@ layout: center
 
 Features
 
-1. -
-2. -
-3. -
-4. -
-5. -
-6. -
+1. Fluent interface
+2. Type-specific assertions
+3. Chained assertions
+4. Soft assertions
+5. Custom error messages
 
 ---
 layout: center
@@ -118,12 +116,11 @@ layout: center
 
 Features
 
-1. -
-2. -
-3. -
-4. -
-5. -
-6. -
+1. Wide variety of data types
+2. Localization support
+3. Customization
+4. Easy integration
+5. High-quality data
 
 ---
 layout: center
@@ -133,12 +130,13 @@ layout: center
 
 Features
 
-1. -
-2. -
-3. -
-4. -
-5. -
-6. -
+1. Simple and intuitive syntax
+2. Stubbing
+3. Verification
+4. Spying
+5. Argument matching
+6. Annotation support
+7. Ability to mock final classes and methods
 
 ---
 layout: center
@@ -148,12 +146,13 @@ layout: center
 
 Features
 
-1. -
-2. -
-3. -
-4. -
-5. -
-6. -
+1. Fluent interface
+2. Customizable
+3. Supports complex object generation
+4. Supports a wide range of data types
+5. Automatic configuration
+6. Easy integration
+7. Provide randomness control
 
 ---
 layout: center
@@ -163,12 +162,12 @@ layout: center
 
 Features
 
-1. -
-2. -
-3. -
-4. -
-5. -
-6. -
+1. @EasyRandom
+2. @WithEasyRandom
+3. @EasyRandomResource
+4. @Randomizer
+5. @Random
+6. @RandomBean
 
 ---
 layout: center
@@ -178,12 +177,12 @@ layout: center
 
 Features
 
-1. -
-2. -
-3. -
-4. -
-5. -
-6. -
+1. Supports multiple database types
+2. Supports data-driven testing
+3. Provides fluent API for database operations
+4. Integration with JUnit and TestNG
+5. Supports transaction management
+6. Supports assertions on database state
 
 ---
 layout: center
@@ -193,12 +192,12 @@ layout: center
 
 Features
 
-1. -
-2. -
-3. -
-4. -
-5. -
-6. -
+1. Model-based testing with graphs
+2. Domain-specific assertions
+3. Value object testing
+4. Flexible model definition
+5. Data-driven testing
+6. Lightweight and easy to use
 
 ---
 layout: center
@@ -208,12 +207,12 @@ layout: center
 
 Features
 
-1. -
-2. -
-3. -
-4. -
-5. -
-6. -
+1. Integration testing
+2. Mock objects
+3. Dependency injection
+4. Annotations
+5. Flexible configuration
+6. Test templates
 
 ---
 layout: center
@@ -223,12 +222,11 @@ layout: center
 
 Features
 
-1. -
-2. -
-3. -
-4. -
-5. -
-6. -
+1. Integration with the Spring framework
+2. Support for different types of testing
+3. Auto-configuration
+4. Embedded servers
+5. Dependency management
 
 ---
 layout: center
@@ -238,12 +236,12 @@ layout: center
 
 Features
 
-1. -
-2. -
-3. -
-4. -
-5. -
-6. -
+1. Containerization
+2. Wide range of supported containers
+3. Automated container management
+4. Dependency management
+5. Simple API
+6. Compatibility with existing testing frameworks
 
 ---
 layout: center
@@ -253,12 +251,11 @@ layout: center
 
 Features
 
-1. -
-2. -
-3. -
-4. -
-5. -
-6. -
+1. Reduces manual data setup in unit tests
+2. Non-intrusive and concise API
+3. Allows customization of generated objects
+4. Requires no changes to production code
+5. Can be used out-of-the-box with zero config
 
 ---
 layout: center
@@ -268,12 +265,14 @@ layout: center
 
 Features
 
-1. -
-2. -
-3. -
-4. -
-5. -
-6. -
+1. Concise and readable syntax
+2. Automatic waits
+3. Screenshots on failures
+4. Support for multiple browsers
+5. Page Object Model (POM) support
+6. Fluent API
+7. Automatic handling of iframes
+8. Advanced assertions
 
 ---
 layout: center
@@ -283,12 +282,13 @@ layout: center
 
 Features
 
-1. -
-2. -
-3. -
-4. -
-5. -
-6. -
+1. Intelligent coding assistance
+2. Unit test frameworks
+3. UI automation
+4. Web inspector
+5. API testing and environment setup
+6. Database
+7. TMS
 
 
 
