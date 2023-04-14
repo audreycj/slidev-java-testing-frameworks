@@ -57,6 +57,246 @@ layout: center
 14. Selenide
 15. JetBrains Aqua
 
+<!--
+
+**Library** — a collection of pre-written code that can be called by your own code to perform specific tasks or functionalities. 
+
+**Testing framework** — a set of guidelines, rules, and conventions that dictate how tests should be structured, written, and executed. 
+
+-->
+
+---
+layout: center
+---
+
+# JUnit 5
+
+Features
+
+1. Modular and extensible architecture
+2. New programming model
+3. Improved exception handling
+4. Test templates
+5. Parallel test execution
+6. Improved reporting
+
+---
+layout: center
+---
+
+# JUnit Pioneer
+
+Features
+
+1. -
+2. -
+3. -
+4. -
+5. -
+6. -
+
+---
+layout: center
+---
+
+# AssertJ
+
+Features
+
+1. -
+2. -
+3. -
+4. -
+5. -
+6. -
+
+---
+layout: center
+---
+
+# Data Faker
+
+Features
+
+1. -
+2. -
+3. -
+4. -
+5. -
+6. -
+
+---
+layout: center
+---
+
+# Mockito
+
+Features
+
+1. -
+2. -
+3. -
+4. -
+5. -
+6. -
+
+---
+layout: center
+---
+
+# Easy Random
+
+Features
+
+1. -
+2. -
+3. -
+4. -
+5. -
+6. -
+
+---
+layout: center
+---
+
+# Easy Random JUnit Extension
+
+Features
+
+1. -
+2. -
+3. -
+4. -
+5. -
+6. -
+
+---
+layout: center
+---
+
+# Database Rider
+
+Features
+
+1. -
+2. -
+3. -
+4. -
+5. -
+6. -
+
+---
+layout: center
+---
+
+# ModelAssert
+
+Features
+
+1. -
+2. -
+3. -
+4. -
+5. -
+6. -
+
+---
+layout: center
+---
+
+# SpringFramework Testing
+
+Features
+
+1. -
+2. -
+3. -
+4. -
+5. -
+6. -
+
+---
+layout: center
+---
+
+# Spring Boot Testing
+
+Features
+
+1. -
+2. -
+3. -
+4. -
+5. -
+6. -
+
+---
+layout: center
+---
+
+# TestContainers
+
+Features
+
+1. -
+2. -
+3. -
+4. -
+5. -
+6. -
+
+---
+layout: center
+---
+
+# Instancio
+
+Features
+
+1. -
+2. -
+3. -
+4. -
+5. -
+6. -
+
+---
+layout: center
+---
+
+# Selenide
+
+Features
+
+1. -
+2. -
+3. -
+4. -
+5. -
+6. -
+
+---
+layout: center
+---
+
+# JetBrains Aqua
+
+Features
+
+1. -
+2. -
+3. -
+4. -
+5. -
+6. -
+
+
+
+
+
+
+
+
 ---
 layout: two-cols
 ---
