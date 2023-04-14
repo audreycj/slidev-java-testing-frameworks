@@ -78,14 +78,6 @@ layout: center
 14. Selenide
 15. JetBrains Aqua
 
-<!--
-
-**Library** — a collection of pre-written code that can be called by your own code to perform specific tasks or functionalities. 
-
-**Testing framework** — a set of guidelines, rules, and conventions that dictate how tests should be structured, written, and executed. 
-
--->
-
 ---
 layout: center
 ---
@@ -152,9 +144,7 @@ layout: center
 
 “Making JUnit 5 testing simpler and more accessible”
 
-> A community-driven effort to improve the quality and effectiveness of JUnit tests,
-
-> through the development and promotion of best practices, tools, and educational resources.
+> An open-source testing tool that extends JUnit 5 to provide additional testing features.
 
 <style>
 blockquote {
@@ -196,7 +186,7 @@ blockquote {
 - Allows you to define complex test data structures and manage them with ease.
 - Can also help avoid code duplication by allowing you to reuse test data across multiple test cases.
 
-**Test isolation with separate class loaders**
+**5. Test isolation with separate class loaders**
 
 **_Class loader_** — responsible for finding and loading Java classes (from the file system, network or other sources) into memory as they are referenced by a Java program at runtime. 
 
@@ -247,7 +237,7 @@ assertThat(str)
 - Allows you to write assertions that read like natural language statements.
 - e.g. Instead of writing _assertTrue(x > 0)_, you can write _assertThat(x).isGreaterThan(0)_.
 
-**Type-specific assertions**
+**2. Type-specific assertions**
 - Provides specific assertion methods for different types of objects, such as collections, strings, dates, and exceptions
 - Makes it easy to write assertions that are tailored to the specific types you are working with.
 
@@ -456,9 +446,7 @@ layout: center
 
 “Seamless test data generation”
 
-> A testing tool that simplifies the process of generating randomized test data in JUnit tests, reducing the amount of 
-
-> boilerplate code required for data setup and allowing for more comprehensive and efficient testing.
+> An extension to the Easy Random library that integrates with JUnit 5 to generate random test data.
 
 <style>
 blockquote {
@@ -594,6 +582,8 @@ blockquote {
 6. Lightweight and easy to use
 
 <!-- 
+
+**_Model_** — refers to an object model, which is a set of classes and objects that represent a system, component, or application. The model contains properties, methods, and behaviors that describe the characteristics and functionality of the system being modeled.
 
 **1. Model-based testing with graphs**
 - Provides a model-based testing approach that allows you to specify the expected behavior of your code using a graph-based representation.
@@ -761,7 +751,7 @@ blockquote {
 <br>
 
 1. Containerization
-2. Wide range of supported containers
+2. Wide range of supported containers (i.e., MySQL, PostgreSQL, Oracle, RabbitMQ, Apache Kafka)
 3. Automated container management
 4. Dependency management
 5. Simple API
@@ -769,22 +759,31 @@ blockquote {
 
 <!-- 
 
+**_Container_** — refers to a disposable instance of a software component, such as a database or a messaging system, that is created and managed dynamically during the execution of a test case. 
+
 **1. Containerization**
+- Allows developers to define and manage the lifecycle of lightweight, throwaway instances of external services directly in their Java test code.
+- This means that developers can run integration tests in an environment that closely mimics production, without the need for complex setup or manual configuration.
 
 
 **2. Wide range of supported containers**
-
+- Supports a wide range of containerized services, including databases like MySQL, PostgreSQL, and Oracle, as well as messaging systems like RabbitMQ and Apache Kafka.
+- Also supports other services like Selenium WebDriver and Elasticsearch.
 
 **3. Automated container management**
-
+- Automatically starts and stops the containers as needed, reducing the need for manual intervention during testing.
+- This allows developers to focus on writing tests rather than managing container lifecycles.
 
 **4. Dependency management**
-
+- Automatically manages dependencies between containers, ensuring that containers are started and stopped in the correct order.
+- This helps to avoid issues with race conditions or other problems that can occur when containers are started or stopped in the wrong order.
 
 **5. Simple API**
+- Has a simple, easy-to-use API that makes it easy to define and manage containers directly in Java test code.
+- The library also provides a number of convenient utilities that make it easy to work with containerized services.
 
 **6. Compatibility with existing testing frameworks**
-
+- TestContainers is compatible with existing Java testing frameworks like JUnit and TestNG, making it easy to integrate with existing testing processes.
 
  -->
 
@@ -816,20 +815,22 @@ blockquote {
 
 <!-- 
 
-**1. Reduces manual data setup in unit tests**
+**GOAL 1**
+- There are several existing libraries for generating realistic test data (i.e., addresses, first and last names)
+- While Instancio also supports this use case, this is not its goal.
+- The idea behind the project is that most unit tests do not care what the actual values are. They just require the presence of a value.
+Therefore, the main goal of Instancio is simply to generate fully populated objects with random data, including arrays, collections, nested collections, generic types, and so on. And it aims to do so with as little code as possible to keep the tests concise.
 
+**GOAL 2**
+- Another goal of Instancio is to make the tests more dynamic.
+- Since each test run is against random values, the tests become alive.
+- They cover a wider range of inputs, which might help uncover bugs that may have gone unnoticed with static data.
+- In many cases, the random nature of the data also removes the need for parameterising test methods.
 
-**2. Non-intrusive and concise API**
-
-
-**3. Allows customization of generated objects**
-
-
-**4. Requires no changes to production code**
-
-
-**5. Can be used out-of-the-box with zero config**
-
+**GOAL 3**
+- Finally, Instancio aims to provide reproducible data.
+- It uses a consistent seed value for each object graph it generates.
+- Therefore, if a test fails against a given set of inputs, Instancio supports re-generating the same data set in order to reproduce the failed test.
 
  -->
 
@@ -864,28 +865,39 @@ blockquote {
 
 <!-- 
 
-**1. Concise and readable syntax**
+**_Selenium WebDriver_** — a popular open-source library that provides a programming interface to interact with web browsers and automate browser activities, such as clicking buttons, filling out forms, and navigating through pages. 
+
+**1. Concise and readable syntax** (uses a jQuery-style selector syntax)
+- Selenide provides a simple and readable syntax for writing tests.
+- The library uses a jQuery-style selector syntax that is easy to learn and use.
+- This makes it easy for developers to write and maintain tests.
 
 
 **2. Automatic waits**
-
+- Automatically waits for elements to become visible or interactable before performing actions on them.
+- This eliminates the need for manual waits in test code and makes tests more reliable.
 
 **3. Screenshots on failures**
-
+- Takes screenshots automatically when a test fails.
+- This helps developers to quickly identify the cause of test failures and fix them.
 
 **4. Support for multiple browsers**
-
+- Supports testing in multiple browsers, including Chrome, Firefox, Edge, and Safari.
+- This makes it easy to test web applications across different platforms and browsers.
 
 **5. Page Object Model (POM) support**
-
+- Supports the Page Object Model (POM), which allows developers to create reusable page objects and keep test code organized and maintainable.
 
 **6. Fluent API**
-
+- Provides a fluent API that allows developers to chain together multiple actions in a single statement.
+- This makes test code more concise and readable.
 
 **7. Automatic handling of iframes**
-
+- Automatically switches to iframes when necessary, making it easy to test web applications that use iframes.
 
 **8. Advanced assertions**
+- Provides advanced assertion capabilities, including _soft assertions_ and _custom assertions_.
+- _Soft assertions_ allow developers to continue executing a test even if an assertion fails, while _custom assertions_ allow developers to create their own custom assertions.
 
 
  -->
@@ -912,35 +924,44 @@ blockquote {
 
 1. Intelligent coding assistance
 2. Unit test frameworks
-3. UI automation
+3. UI automation (i.e., New Project wizard, Code Insight, Page Object Templates)
 4. Web inspector
-5. API testing and environment setup
+5. API testing and environment setup (i.e., HTTP, Docker)
 6. Database
-7. TMS
+7. Test management systems (TMS)
 
 
 <!-- 
 
 **1. Intelligent coding assistance**
-
+- Take advantage of language-aware code completion, error detection, and on-the-fly code fixes
 
 **2. Unit test frameworks**
-
+- Create and run your tests with coding assistance and a GUI-based test runner. With JetBrains Aqua you can write, run, and debug your unit tests using JUnit, TestNG, Pytest, Jest, Mocha, and other popular frameworks. Reviewing the test results inside the IDE allows you to easily navigate in a tree view and to the test source.
 
 **3. UI automation**
-
+- **New Project Wizard:** Aqua can generate a new UI test project for the JVM stack, allowing you to specify the JDK, build tool (Maven or Gradle), test runner (JUnit or TestNG), and language from the New Project wizard.
+- **Code Insight:** Aqua provides rich support for the Selenium API and Selenide, offering code insight for the CSS, XPath, and JavaScript fragments used in the Selenium API and many other libraries for UI testing. 
+- **Page Object Templates:** When following the Page Object pattern, the IDE helps you create and maintain new page object files from the New File menu and respects the selected page object pattern when adding locators.
 
 **4. Web inspector**
-
+- The embedded Web Inspector allows you to view web applications in Aqua and capture page elements required for automated tests.
+- Aqua generates a unique CSS or XPath locator for the selected element on the web page and helps add it to the source code. 
 
 **5. API testing and environment setup**
-
+- **HTTP Client:** When developing a web service that sends and receives HTTP requests, you can easily create and edit requests in Aqua’s built-in HTTP client and receive extensive code assistance, including code completion, highlighting, refactorings, and more.
+- **Docker:** With Aqua, you get access to your Docker containers, allowing you to run and debug them, download and build images, and run multi-container applications.
 
 **6. Database**
+- JetBrains Aqua does not require any extra tools to prepare your application data.
+- You can seamlessly handle multiple databases, develop SQL scripts, and perform low-level data assertions right in the IDE. 
+- Aqua provides connections to live databases, runs queries, exports data, and allows you to manage schemes in a visual interface.
+- This means you can access Oracle, SQL Server, PostgreSQL, MySQL, and other databases from the IDE.
 
-
-**7. TMS**
-
+**7. Test management systems (TMS)**
+- Tests usually contain links to issue trackers and TMS (test management systems).
+- To make it possible to include them, developers use reporting libraries (i.e., Allure Framework) or built-in test framework mechanisms (i.e.m Serenity BDD).
+We have added support for the annotations of these libraries, and the IDE allows you to open issues or TMS cases in a web browser just by clicking on the issue IDs.
 
  -->
 
