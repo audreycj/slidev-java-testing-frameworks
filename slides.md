@@ -596,21 +596,31 @@ blockquote {
 <!-- 
 
 **1. Model-based testing with graphs**
-
+- Provides a model-based testing approach that allows you to specify the expected behavior of your code using a graph-based representation.
+- This approach allows you to visualize and reason about the behavior of your code in a more intuitive way.
 
 **2. Domain-specific assertions**
-
+- Provides a set of domain-specific assertions that are tailored to specific domains.
+- e.g. There are assertions for checking the behavior of collections, assertions for checking the behavior of time-based operations, and so on.
+- By using domain-specific assertions, you can write more expressive tests that are easier to read and understand.
 
 **3. Value object testing**
-
+- Provides support for testing value objects, which are objects that are defined by their values rather than their identity.
+- Value objects are often used in domain-driven design to represent concepts such as money, dates, and times.
+- By providing value object testing support, ModelAssert can help you ensure that your value objects behave correctly in all scenarios.
 
 **4. Flexible model definition**
-
+- Provides a flexible model definition approach that allows you to define your models in a way that suits your needs.
+- You can define your models using plain Java objects, or you can use a fluent API to define your models in a more concise and expressive way.
 
 **5. Data-driven testing**
+- Provides support for data-driven testing, which allows you to test your code with multiple sets of input data.
+- By using data-driven testing, you can ensure that your code behaves correctly for a range of input values and edge cases.
 
 **6. Lightweight and easy to use**
-
+- Is a lightweight testing library that is designed to be easy to use.
+- Has a small footprint and minimal dependencies, making it easy to integrate into your existing testing framework.
+- Also provides clear and concise error messages that make it easy to diagnose and fix issues in your tests.
 
  -->
 
@@ -639,26 +649,35 @@ blockquote {
 1. Integration testing
 2. Mock objects
 3. Dependency injection
-4. Annotations
+4. Annotations (i.e., @RunWith, @ContextConfiguration, and @Autowired)
 5. Flexible configuration
 6. Test templates
 
 <!-- 
 
-**FEATURE 1.**
+**_Spring_** — a popular open-source framework for building Java applications. 
 
+**1. Integration testing**
+- Allows developers to test their application's integration with other technologies and systems, such as databases, messaging systems, and web services.
+- This is particularly important in enterprise applications, which often rely on complex systems and architectures.
 
-**FEATURE 2.**
+**2. Mock objects**
+- Allows developers to create mock objects, which are fake versions of other components in the application.
+- This allows developers to test their code in isolation, without having to set up a complete environment with all the components.
 
+**3. Dependency injection**
+- Uses the same dependency injection mechanism as the rest of the Spring framework, which makes it easy to configure and manage dependencies between components in the application. 
+- **_Dependency injection_** — a technique where the required dependencies of an object are provided to it from outside, rather than the object creating them itself.
 
-**FEATURE 3.**
+**4. Annotations**
+- Provides a set of annotations that developers can use to write tests, such as _@RunWith_, _@ContextConfiguration_, and _@Autowired_. These annotations make it easy to set up and configure the testing environment, and to inject dependencies into test classes.
 
+**5. Flexible configuration**
+- Allows you to configure your tests in a flexible way.
+- Provides support for loading configuration files, setting up test data, and configuring mock objects.
 
-**FEATURE 4.**
-
-
-**FEATURE 5.**
-
+**6. Test templates**
+- Provides a set of templates that developers can use to write different types of tests, such as unit tests, integration tests, and end-to-end tests. 
 
  -->
 
@@ -684,28 +703,38 @@ blockquote {
 
 <br>
 
-1. Integration with the Spring framework
-2. Support for different types of testing
-3. Auto-configuration
-4. Embedded servers
-5. Dependency management
+1. Auto-configuration
+2. Mocking and testing
+3. Integration testing
+4. Test annotations (i.e., _@SpringBootTest_, _@MockBean_)
+5. Test utilities (i.e., _TestRestTemplate_ class)
+6. Test slices (i.e., _@WebMvcTest_, _@DataJpaTest_ )
 
 <!-- 
 
-**FEATURE 1.**
+**1. Integration with the Spring framework**
+- Includes auto-configuration, which allows you to automatically configure the test environment based on your application's settings.
+- Makes it easy to get started with testing and reduces the amount of boilerplate code you need to write.
 
+**2. Mocking and testing**
+- Provides support for mocking and testing controllers, repositories, and other components.
+- Allows you to test individual components of your application in isolation, without having to start up the entire application.
 
-**FEATURE 2.**
+**3. Integration testing**
+- Provides support for integration testing, where you can test the interactions between different parts of your application in a real-world environment.
+- Allows you to test the behavior of your application as a whole, including its interactions with external services and databases.
 
+**4. Test annotations**
+- Includes a set of test annotations that make it easy to write tests for your application.
+- e.g. The @SpringBootTest annotation can be used to load the entire Spring application context for testing, while the @MockBean annotation can be used to mock out specific beans in the application context.
 
-**FEATURE 3.**
+**5. Test utilities**
+- Includes a set of test utilities that make it easy to write tests for your application.
+- e.g. The _TestRestTemplate_ class can be used to make HTTP requests to your application and assert the responses, while the TestEntityManager class can be used to interact with the application's database in a test environment.
 
-
-**FEATURE 4.**
-
-
-**FEATURE 5.**
-
+**6. Test slices**
+- Includes the concept of "test slices", which are subsets of the application context that can be used to test specific parts of your application.
+- The _@WebMvcTest_ annotation can be used to test just the web layer of your application, while the _@DataJpaTest_ annotation can be used to test just the data access layer. This makes it easier to write focused tests that are faster to run.
 
  -->
 
@@ -740,19 +769,21 @@ blockquote {
 
 <!-- 
 
-**FEATURE 1.**
+**1. Containerization**
 
 
-**FEATURE 2.**
+**2. Wide range of supported containers**
 
 
-**FEATURE 3.**
+**3. Automated container management**
 
 
-**FEATURE 4.**
+**4. Dependency management**
 
 
-**FEATURE 5.**
+**5. Simple API**
+
+**6. Compatibility with existing testing frameworks**
 
 
  -->
@@ -785,19 +816,19 @@ blockquote {
 
 <!-- 
 
-**FEATURE 1.**
+**1. Reduces manual data setup in unit tests**
 
 
-**FEATURE 2.**
+**2. Non-intrusive and concise API**
 
 
-**FEATURE 3.**
+**3. Allows customization of generated objects**
 
 
-**FEATURE 4.**
+**4. Requires no changes to production code**
 
 
-**FEATURE 5.**
+**5. Can be used out-of-the-box with zero config**
 
 
  -->
@@ -833,19 +864,28 @@ blockquote {
 
 <!-- 
 
-**FEATURE 1.**
+**1. Concise and readable syntax**
 
 
-**FEATURE 2.**
+**2. Automatic waits**
 
 
-**FEATURE 3.**
+**3. Screenshots on failures**
 
 
-**FEATURE 4.**
+**4. Support for multiple browsers**
 
 
-**FEATURE 5.**
+**5. Page Object Model (POM) support**
+
+
+**6. Fluent API**
+
+
+**7. Automatic handling of iframes**
+
+
+**8. Advanced assertions**
 
 
  -->
@@ -881,19 +921,25 @@ blockquote {
 
 <!-- 
 
-**FEATURE 1.**
+**1. Intelligent coding assistance**
 
 
-**FEATURE 2.**
+**2. Unit test frameworks**
 
 
-**FEATURE 3.**
+**3. UI automation**
 
 
-**FEATURE 4.**
+**4. Web inspector**
 
 
-**FEATURE 5.**
+**5. API testing and environment setup**
+
+
+**6. Database**
+
+
+**7. TMS**
 
 
  -->
