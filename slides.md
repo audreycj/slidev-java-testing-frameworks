@@ -422,19 +422,29 @@ blockquote {
 <!-- 
 
 **FEATURE 1.**
-
+- Is easy to use and understand. It has a simple and intuitive interface that makes it easy to create random data for your Java code.
 
 **FEATURE 2.**
-
+- Lets you make your own custom data types, which means you can create data that is unique to your needs.
+- You can customize Easy Random by telling it how to generate data. For example, you can tell it to make all strings between 5 and 10 characters long.
 
 **FEATURE 3.**
-
+- Can create complex objects with many different fields.
+- You can make objects that have other objects inside them, like a person object that has an address object inside it.
 
 **FEATURE 4.**
-
+- Can create all kinds of data, like numbers, strings, dates, and even custom data types that you create yourself.
 
 **FEATURE 5.**
+- can automatically configure itself based on the types of objects that need to be generated.
+- You don't need to manually configure Easy Random for every object you need to generate.
 
+**FEATURE 6.**
+- Is available on Maven Central and can be easily integrated into your Java projects using Maven, Gradle, or any other build tool that supports dependency management.
+
+**FEATURE 7.**
+- You can control the randomness of the data that Easy Random generates.
+- You can make sure that the same data is generated every time you run your code.
 
  -->
 
