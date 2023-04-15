@@ -919,8 +919,6 @@ layout: center
 
 "A powerful new IDE for test automation"
 
-> A powerful tool for testing automation that incorporates parts of various IDEs, targeting the testing automation process.
-
 <style>
 blockquote {
   code {
@@ -1008,12 +1006,7 @@ layout: center
 12. **_TestContainers_** — A testing tool that allows you to easily run applications in containers for testing purposes.
 13. **_Instancio_** — A testing tool that generates test data by analyzing the source code of the classes being tested.
 14. **_Selenide_** — A testing framework that provides a concise API for writing UI tests using Selenium WebDriver.
-15. **_JetBrains Aqua_** — A testing tool that provides a simple and intuitive way to test Java applications using a web-based interface.
-
-
-
-
-
+15. **_JetBrains Aqua_** — A testing tool (IDE) for test automation
 
 ---
 layout: center
