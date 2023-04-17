@@ -1,4 +1,4 @@
-# Audrey's Personal Slidev Presentation Template
+# Java Unit Testing Frameworks, Libraries, and Tools: A Slidev Presentation
 
 This repository contains a slide deck created using the Slidev presentation tool. The presentation covers 15 Java testing frameworks, libraries, and tools, and was built for my presentation as an intern at ChatChatABC, Davao City, Philippines. Each slide has thorough presenter notes that can be viewed in the **slides.md** file or through presenter view.
 
